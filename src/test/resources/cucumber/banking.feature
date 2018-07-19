@@ -3,9 +3,9 @@ Feature: Banking
   I want to use a ATM Trasanction
 
     Scenario: Withdraw less money
-    Given I have $200 on my account
+    Given I have $300 on my account
     When I withdraw $100
-    Then I get $100 from the ATM
+    Then I get $200 from the ATM
     
     Scenario: Withdraw more money
  	Given I have $50 on my account
