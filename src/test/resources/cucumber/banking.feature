@@ -1,17 +1,20 @@
 Feature: Banking
   As a user
   I want to use a ATM Trasanction
-
+    
+    @requrimentKey=BAN-RQ-1
     Scenario: Withdraw less money
     Given I have $300 on my account
     When I withdraw $200
     Then I get $200 from the ATM
     
+    @requrimentKey=BAN-RQ-1
     Scenario: Withdraw more money
  	Given I have $150 on my account
 	When I withdraw $200
 	Then I get $0 from the ATM
     
+    @requrimentKey=BAN-RQ-1
 	Scenario Outline: Withdraw money from the account
  	Given I have $<balance> on my account
 	When I withdraw $<withdraw>
