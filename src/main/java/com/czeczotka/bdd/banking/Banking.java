@@ -26,7 +26,7 @@ public class Banking {
 		if(balance > arg1)
 		{
 			balance = balance - arg1;
-			result = balance;
+			result = arg1;
 		}
 		else
 		{
