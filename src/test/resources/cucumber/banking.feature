@@ -4,12 +4,12 @@ Feature: Banking
 
     Scenario: Withdraw less money
     Given I have $300 on my account
-    When I withdraw $100
+    When I withdraw $200
     Then I get $200 from the ATM
     
     Scenario: Withdraw more money
- 	Given I have $50 on my account
-	When I withdraw $100
+ 	Given I have $150 on my account
+	When I withdraw $200
 	Then I get $0 from the ATM
     
 	Scenario Outline: Withdraw money from the account
