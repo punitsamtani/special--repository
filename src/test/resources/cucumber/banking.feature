@@ -11,7 +11,7 @@ Feature: Banking
     @requirementKey=BAN-RQ-1
     Scenario: Withdraw more money
  	Given I have $150 on my account
-	When I withdraw $200
+	When I withdraw $300
 	Then I get $0 from the ATM
     
     @requirementKey=BAN-RQ-1
