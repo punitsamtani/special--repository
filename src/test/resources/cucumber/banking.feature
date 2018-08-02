@@ -2,19 +2,19 @@ Feature: Banking
   As a user
   I want to use a ATM Trasanction
     
-    @requirementKey=AD-RQ-2
+    @requirementKey=AD-RQ-3
     Scenario: Withdraw less money
     Given I have $1200 on my account
     When I withdraw $600
     Then I get $600 from the ATM
     
-    @requirementKey=AD-RQ-2
+    @requirementKey=AD-RQ-3
     Scenario: Withdraw more money
  	Given I have $150 on my account
 	When I withdraw $300
 	Then I get $0 from the ATM
     
-    @requirementKey=AD-RQ-2
+    @requirementKey=AD-RQ-3
 	Scenario Outline: Withdraw money from the account
  	Given I have $<balance> on my account
 	When I withdraw $<withdraw>
