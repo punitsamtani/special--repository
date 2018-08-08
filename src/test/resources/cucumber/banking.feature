@@ -1,6 +1,6 @@
 Feature: Banking
   As a user
-  I want to use a ATM Trasanction
+  I want to make an ATM Transaction
     
     @requirementKey=FT-RQ-108
     Scenario: Withdraw less money
