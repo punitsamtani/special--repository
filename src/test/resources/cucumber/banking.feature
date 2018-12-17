@@ -10,8 +10,8 @@ Feature: Banking
     
     @requirementKey=FT-RQ-6
     Scenario: Withdraw more money
- 	Given I have $100 on my account
-	When I withdraw $300
+ 	Given I have $50 on my account
+	When I withdraw $100
 	Then I get $0 from the ATM
     
     @requirementKey=FT-RQ-6 
@@ -23,4 +23,4 @@ Feature: Banking
  	Examples:
 	| balance| withdraw | received |
 	| 200 | 100 | 100 |
-	| 50 | 50 | 50 |
+	| 500 | 50 | 50 |
