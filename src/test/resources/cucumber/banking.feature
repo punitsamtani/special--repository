@@ -10,9 +10,9 @@ Feature: Banking
     
     @requirementKey=FT-RQ-108
     Scenario: Withdraw more money
- 	Given I have $150 on my account
+ 	Given I have $300 on my account
 	When I withdraw $300
-	Then I get $300 from the ATM
+	Then I get $0 from the ATM
     
     @requirementKey=FT-RQ-108 
 	Scenario Outline: Withdraw money from the account
