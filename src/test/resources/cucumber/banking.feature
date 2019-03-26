@@ -22,4 +22,4 @@ Feature: Banking
 
  	Examples:
 	| balance| withdraw | received |
-	| 300 | 100 | 100 |
+	| 200 | 100 | 100 |
