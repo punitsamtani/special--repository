@@ -2,22 +2,19 @@ Feature: Banking
   As a user
   I want to make an ATM Transaction
     
-    @requirementKey=DEM-RQ-10
-    @testEntityKey=DEM-TC-7
+    @requirementKey=FT-RQ-108
     Scenario: Withdraw less money
     Given I have $1200 on my account
-    When I withdraw $1000
+    When I withdraw $900
     Then I get $1000 from the ATM
     
-    @requirementKey=DEM-RQ-10
-    @testEntityKey=DEM-TC-8
+    @requirementKey=FT-RQ-108
     Scenario: Withdraw more money
  	Given I have $300 on my account
 	When I withdraw $100
 	Then I get $100 from the ATM
     
-    @requirementKey=DEM-RQ-10
-    @testEntityKey=DEM-TC-9
+    @requirementKey=FT-RQ-108
 	Scenario Outline: Withdraw money from the account
  	Given I have $<balance> on my account
 	When I withdraw $<withdraw>
