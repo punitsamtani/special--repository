@@ -11,8 +11,8 @@ Feature: Banking
     @requirementKey=BD-RQ-202
     Scenario: Withdraw more money
  	Given I have $300 on my account
-	When I withdraw $400
-	Then I get $100 from the ATM
+	When I withdraw $300
+	Then I get $300 from the ATM
     
     @requirementKey=BD-RQ-202
 	Scenario Outline: Withdraw money from the account
