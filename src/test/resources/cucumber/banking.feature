@@ -2,19 +2,19 @@ Feature: Banking
   As a user
   I want to make an ATM Transaction
     
-    @requirementKey=AP-RQ-16
+    @requirementKey=FT-RQ-139
     Scenario: Withdraw less money
     Given I have $1200 on my account
-    When I withdraw $700
-    Then I get $700 from the ATM
+    When I withdraw $600
+    Then I get $600 from the ATM
     
-    @requirementKey=AP-RQ-16
+    @requirementKey=FT-RQ-139
     Scenario: Withdraw more money
  	Given I have $300 on my account
-	When I withdraw $200
-	Then I get $200 from the ATM
+	When I withdraw $400
+	Then I get $400 from the ATM
     
-    @requirementKey=AP-RQ-16
+    @requirementKey=FT-RQ-139
 	Scenario Outline: Withdraw money from the account
  	Given I have $<balance> on my account
 	When I withdraw $<withdraw>
