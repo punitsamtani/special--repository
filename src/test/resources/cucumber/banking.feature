@@ -2,19 +2,19 @@ Feature: Banking
   As a user
   I want to make an ATM Transaction
     
-    @requirementKey=CHI-RQ-3
+    @requirementKey=LUX-RQ-55
     Scenario: Withdraw less money
     Given I have $1200 on my account
     When I withdraw $400
     Then I get $400 from the ATM
     
-    @requirementKey=CHI-RQ-3
+    @requirementKey=LUX-RQ-55
     Scenario: Withdraw more money
  	Given I have $300 on my account
 	When I withdraw $350
 	Then I get $0 from the ATM
     
-    @requirementKey=CHI-RQ-3
+    @requirementKey=LUX-RQ-55
 	Scenario Outline: Withdraw money from the account
  	Given I have $<balance> on my account
 	When I withdraw $<withdraw>
