@@ -6,13 +6,13 @@ Feature: Banking
     Scenario: Withdraw less money
     Given I have $1200 on my account
     When I withdraw $500
-    Then I get $700 from the ATM
+    Then I get $500 from the ATM
     
     @requirementKey=MAC-RQ-3
     Scenario: Withdraw more money
  	Given I have $150 on my account
-	When I withdraw $400
-	Then I get $400 from the ATM
+	When I withdraw $200
+	Then I get $200 from the ATM
     
     @requirementKey=MAC-RQ-3
 	Scenario Outline: Withdraw money from the account
@@ -22,4 +22,4 @@ Feature: Banking
 
  	Examples:
 	| balance| withdraw | received |
-	| 200 | 100 | 30 |
+	| 200 | 100 | 100 |
