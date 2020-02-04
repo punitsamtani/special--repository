@@ -11,8 +11,8 @@ Feature: Banking
     @requirementKey=LUX-RQ-117
     Scenario: Withdraw more money
  	Given I have $150 on my account
-	When I withdraw $500
-	Then I get $500 from the ATM
+	When I withdraw $700
+	Then I get $700 from the ATM
     
     @requirementKey=LUX-RQ-117
 	Scenario Outline: Withdraw money from the account
