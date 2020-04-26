@@ -12,7 +12,7 @@ Feature: Banking
     Scenario: Withdraw more money
  	Given I have $150 on my account
 	When I withdraw $200
-	Then I get $0 from the ATM
+	Then I get $150 from the ATM
     
     @requirementKey=BDDD-RQ-93
 	Scenario Outline: Withdraw money from the account
