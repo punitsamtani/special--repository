@@ -4,7 +4,7 @@ Feature: Banking
     
     @requirementKey=WAT-RQ-47
     Scenario: Withdraw less money
-    Given I have $1200 on my account
+    Given I have $1000 on my account
     When I withdraw $500
     Then I get $500 from the ATM
     
