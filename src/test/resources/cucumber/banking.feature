@@ -2,19 +2,19 @@ Feature: Banking
   As a user
   I want to use a ATM Trasanction
     
-    @requirementKey=WAT-RQ-61
+    @requirementKey=WAT-RQ-49
     Scenario: Withdraw less money
     Given I have $1100 on my account
     When I withdraw $500
     Then I get $500 from the ATM
     
-    @requirementKey=WAT-RQ-61
+    @requirementKey=WAT-RQ-49
     Scenario: Withdraw more money
  	Given I have $150 on my account
-	When I withdraw $150
+	When I withdraw $100
 	Then I get $100 from the ATM
     
-    @requirementKey=WAT-RQ-61
+    @requirementKey=WAT-RQ-49
 	Scenario Outline: Withdraw money from the account
  	Given I have $<balance> on my account
 	When I withdraw $<withdraw>
@@ -22,4 +22,4 @@ Feature: Banking
 
  	Examples:
 	| balance| withdraw | received |
-	| 200 | 150 | 150 |
+	| 200 | 100 | 100 |
