@@ -11,7 +11,7 @@ Feature: Banking
     @requirementKey=WAT-RQ-49
     Scenario: Withdraw more money
  	Given I have $150 on my account
-	When I withdraw $100
+	When I withdraw $10
 	Then I get $100 from the ATM
     
     @requirementKey=WAT-RQ-49
@@ -22,4 +22,4 @@ Feature: Banking
 
  	Examples:
 	| balance| withdraw | received |
-	| 200 | 100 | 100 |
+	| 200 | 50 | 50 |
