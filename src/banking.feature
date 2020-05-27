@@ -5,14 +5,14 @@ Feature: Banking
     @requirementKey=LUX-RQ-136
     Scenario: Withdraw less money
     Given I have $1200 on my account
-    When I withdraw $1000
-    Then I get $1000 from the ATM
+    When I withdraw $500
+    Then I get $500 from the ATM
     
     @requirementKey=LUX-RQ-136
     Scenario: Withdraw more money
  	Given I have $300 on my account
-	When I withdraw $100
-	Then I get $100 from the ATM
+	When I withdraw $700
+	Then I get $700 from the ATM
     
     @requirementKey=LUX-RQ-136
 	Scenario Outline: Withdraw money from the account
