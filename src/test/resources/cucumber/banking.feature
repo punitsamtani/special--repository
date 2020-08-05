@@ -5,10 +5,10 @@ Feature: Banking
     @requirementKey=MAC-RQ-87
     Scenario: Withdraw less money
     Given I have $1100 on my account
-    When I withdraw $600
-    Then I get $600 from the ATM
+    When I withdraw $500
+    Then I get $500 from the ATM
     
-    @requirementKey=MAC-RQ-88
+    @requirementKey=MAC-RQ-87
     Scenario: Withdraw more money
  	Given I have $150 on my account
 	When I withdraw $100
