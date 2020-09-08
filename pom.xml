@@ -69,7 +69,7 @@
 	<configuration>
 		<url>http://qmetrydemo.qmetry.com/</url>
 		<apikey>Ld2weloGKwLX8VTcrb9FSSfVzTb5CmWtXbCBcGDH</apikey>
-		<filepath>test-results\</filepath>
+		<filepath>target/cucumber.json</filepath>
 		<format>cucucmber/json</format>
 		<project>QMetry Azure Integration</project> <!-- or <qtmProject>Demo Project</qtmProject> -->
 		<testsuiteName>Cucumber Test suite</testsuiteName>
