@@ -2,19 +2,19 @@ Feature: Banking
   As a user
   I want to use a ATM Trasanction
     
-    @requirementKey=P2S-RQ-1
+    @requirementKey=NFS-RQ-9
     Scenario: Withdraw less money
     Given I have $1100 on my account
     When I withdraw $500
     Then I get $500 from the ATM
     
-    @requirementKey=P2S-RQ-1
+    @requirementKey=NFS-RQ-9
     Scenario: Withdraw more money
  	Given I have $150 on my account
 	When I withdraw $100
 	Then I get $300 from the ATM
     
-    @requirementKey=P2S-RQ-1
+    @requirementKey=NFS-RQ-9
 	Scenario Outline: Withdraw money from the account
  	Given I have $<balance> on my account
 	When I withdraw $<withdraw>
