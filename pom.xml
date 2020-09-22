@@ -51,8 +51,8 @@
 			</snapshots>
 		</repository>
 	</repositories>
-	
-	<pluginRepositories>
+
+<pluginRepositories>
 	<pluginRepository>
 		<id>qmetry-test-management-maven-plugin-mvn-repo</id>
 		<url>https://raw.github.com/qmetry/qmetry-test-management-maven-plugin/mvn-repo/</url>
@@ -63,27 +63,26 @@
 	</pluginRepository>
 </pluginRepositories>
 
-<plugin>
+	<build>
+		<plugins>
+		<plugin>
 	<groupId>com.qmetry</groupId>
 	<artifactId>qmetry-test-management-maven-plugin</artifactId>
 	<configuration>
 		<url>http://qmetrydemo.qmetry.com/</url>
 		<apikey>Ld2weloGKwLX8VTcrb9FSSfVzTb5CmWtXbCBcGDH</apikey>
-		<filepath>target/cucumber.json</filepath>
-		<format>cucucmber/json</format>
-		<project>QMetry Azure Integration</project>
+		<filepath>target/Cucumber.json</filepath>
+		<format>cucumber/json</format>
+		<project>QMetry Azure Integration</project> <!-- or <qtmProject>Demo Project</qtmProject> -->
 		<testsuiteName>Cucumber Test suite</testsuiteName>
-		<release></release>
+		<!-- <release></release>
 		<cycle></cycle>
-		<build>Demo Build</build>
+		<build>Demo Build</build> -->
 		<platform>Chrome</platform>
-		<testcaseFields>{"description":"Automated Test case","testCaseType":"Security","testCaseState":"Rejected","component":["x"],"priority":"Blocker","testcaseOwner":"Jack","estimatedTime":"143","userDefinedFields":{"Integrate":"Custom Field Testsuite"}}</testcaseFields>
-		<testsuiteFields>{"description":"Automated Test suite","testsuiteOwner":"Jack","testSuiteState":"New","userDefinedFields":{"Integrate":"Custom Field Testsuite"}}</testsuiteFields>
+		<!-- <testcaseFields>{"description":"Automated Test case","testCaseType":"Security","testCaseState":"Rejected","component":["x"],"priority":"Blocker","testcaseOwner":"Jack","estimatedTime":"143","userDefinedFields":{"Integrate":"Custom Field Testsuite"}}</testcaseFields>
+		<testsuiteFields>{"description":"Automated Test suite","testsuiteOwner":"Jack","testSuiteState":"New","userDefinedFields":{"Integrate":"Custom Field Testsuite"}}</testsuiteFields> -->
 	</configuration>
 </plugin>
-
-	<build>
-		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
