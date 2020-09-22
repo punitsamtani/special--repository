@@ -63,7 +63,7 @@
 	</pluginRepository>
 </pluginRepositories>
 
-<plugin>
+<!-- <plugin>
 	<groupId>com.qmetry</groupId>
 	<artifactId>qmetry-test-management-maven-plugin</artifactId>
 	<configuration>
@@ -71,16 +71,16 @@
 		<apikey>Ld2weloGKwLX8VTcrb9FSSfVzTb5CmWtXbCBcGDH</apikey>
 		<filepath>target/cucumber.json</filepath>
 		<format>cucucmber/json</format>
-		<project>QMetry Azure Integration</project> <!-- or <qtmProject>Demo Project</qtmProject> -->
+		<project>QMetry Azure Integration</project>
 		<testsuiteName>Cucumber Test suite</testsuiteName>
-		<!-- <release></release>
+		<release></release>
 		<cycle></cycle>
-		<build>Demo Build</build> -->
+		<build>Demo Build</build>
 		<platform>Chrome</platform>
-		<!-- <testcaseFields>{"description":"Automated Test case","testCaseType":"Security","testCaseState":"Rejected","component":["x"],"priority":"Blocker","testcaseOwner":"Jack","estimatedTime":"143","userDefinedFields":{"Integrate":"Custom Field Testsuite"}}</testcaseFields>
-		<testsuiteFields>{"description":"Automated Test suite","testsuiteOwner":"Jack","testSuiteState":"New","userDefinedFields":{"Integrate":"Custom Field Testsuite"}}</testsuiteFields> -->
+		<testcaseFields>{"description":"Automated Test case","testCaseType":"Security","testCaseState":"Rejected","component":["x"],"priority":"Blocker","testcaseOwner":"Jack","estimatedTime":"143","userDefinedFields":{"Integrate":"Custom Field Testsuite"}}</testcaseFields>
+		<testsuiteFields>{"description":"Automated Test suite","testsuiteOwner":"Jack","testSuiteState":"New","userDefinedFields":{"Integrate":"Custom Field Testsuite"}}</testsuiteFields>
 	</configuration>
-</plugin>
+</plugin> -->
 
 	<build>
 		<plugins>
