@@ -63,7 +63,7 @@
 	</pluginRepository>
 </pluginRepositories>
 
-<!-- <plugin>
+<plugin>
 	<groupId>com.qmetry</groupId>
 	<artifactId>qmetry-test-management-maven-plugin</artifactId>
 	<configuration>
@@ -80,7 +80,7 @@
 		<testcaseFields>{"description":"Automated Test case","testCaseType":"Security","testCaseState":"Rejected","component":["x"],"priority":"Blocker","testcaseOwner":"Jack","estimatedTime":"143","userDefinedFields":{"Integrate":"Custom Field Testsuite"}}</testcaseFields>
 		<testsuiteFields>{"description":"Automated Test suite","testsuiteOwner":"Jack","testSuiteState":"New","userDefinedFields":{"Integrate":"Custom Field Testsuite"}}</testsuiteFields>
 	</configuration>
-</plugin> -->
+</plugin>
 
 	<build>
 		<plugins>
