@@ -2,21 +2,21 @@ Feature: Banking
   As a user
   I want to use a ATM Trasanction
     
-    @requirementKey=MAC-RQ-50
+    @requirementKey=LUX-RQ-158
     @testEntityKey=MAC-TC-182
     Scenario: Withdraw less money
     Given I have $1100 on my account
-    When I withdraw $500
-    Then I get $500 from the ATM
+    When I withdraw $700
+    Then I get $700 from the ATM
     
-    @requirementKey=MAC-RQ-50
+    @requirementKey=LUX-RQ-158
     @testEntityKey=MAC-TC-183
     Scenario: Withdraw more money
  	Given I have $150 on my account
 	When I withdraw $100
 	Then I get $300 from the ATM
     
-    @requirementKey=MAC-RQ-50
+    @requirementKey=LUX-RQ-158
     @testEntityKey=MAC-TC-184
 	Scenario Outline: Withdraw money from the account
  	Given I have $<balance> on my account
