@@ -12,6 +12,7 @@ Feature: Banking
 	When I withdraw $100
 	Then I get $300 from the ATM
     
+    @testEntityKey=MAC-TC-245
 	Scenario Outline: Withdraw money from the account
  	Given I have $<balance> on my account
 	When I withdraw $<withdraw>
@@ -20,5 +21,3 @@ Feature: Banking
  	Examples:
 	| balance| withdraw | received |
 	| 500 | 50 | 50 |
-	| 250 | 50 | 50 |
-	| 100 | 50 | 50 |
