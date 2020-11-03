@@ -12,7 +12,6 @@ Feature: Banking
 	When I withdraw $100
 	Then I get $300 from the ATM
     
-    @testEntityKey=MAC-TC-245
 	Scenario Outline: Withdraw money from the account
  	Given I have $<balance> on my account
 	When I withdraw $<withdraw>
