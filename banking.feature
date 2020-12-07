@@ -2,13 +2,13 @@ Feature: Banking
   As a user
   I want to use a ATM Trasanction
     
-    @requirementKey=LUX-RQ-164
+    @requirementKey=LUX-RQ-165
     Scenario: Withdraw less money
-    Given I have $1100 on my account
-    When I withdraw $700
-    Then I get $700 from the ATM
+    Given I have $2000 on my account
+    When I withdraw $1000
+    Then I get $1000 from the ATM
     
-    @requirementKey=LUX-RQ-164
+    @requirementKey=LUX-RQ-165
     Scenario: Withdraw more money
  	Given I have $150 on my account
 	When I withdraw $100
