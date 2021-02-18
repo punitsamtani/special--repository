@@ -2,13 +2,13 @@ Feature: Banking
   As a user
   I want to use a ATM Trasanction
     
-    @requirementKey=MAC-RQ-153
+    @requirementKey=MAC-RQ-154
     Scenario: Withdraw less money
     Given I have $2000 on my account
     When I withdraw $1000
     Then I get $1000 from the ATM
     
-    @requirementKey=MAC-RQ-153
+    @requirementKey=MAC-RQ-154
     Scenario: Withdraw more money
  	Given I have $150 on my account
 	When I withdraw $100
