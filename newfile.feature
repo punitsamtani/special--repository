@@ -25,4 +25,144 @@ Scenario Outline: PunitScenario outline
   And wait until "text.search" to be enable
   And sendKeys "qmetry" into "text.search"
   And wait until "text.search" to be enable
-  And type Enter "text.search"
+  change it
+  
+  Scenario Outline: PunitScenario outline
+
+  Given get "<website>"
+  When wait until "text.search" to be enable
+  And clear "text.search"
+  And wait until "text.search" to be enable
+  And sendKeys "qmetry" into "text.search"
+  And wait until "text.search" to be enable
+  change it
+  
+  Scenario Outline: PunitScenario outline
+
+  Given get "<website>"
+  When wait until "text.search" to be enable
+  And clear "text.search"
+  And wait until "text.search" to be enable
+  And sendKeys "qmetry" into "text.search"
+  And wait until "text.search" to be enable
+  change it
+  
+  Scenario Outline: PunitScenario outline
+
+  Given get "<website>"
+  When wait until "text.search" to be enable
+  And clear "text.search"
+  And wait until "text.search" to be enable
+  And sendKeys "qmetry" into "text.search"
+  And wait until "text.search" to be enable
+  change it
+  
+  Scenario Outline: PunitScenario outline
+
+  Given get "<website>"
+  When wait until "text.search" to be enable
+  And clear "text.search"
+  And wait until "text.search" to be enable
+  And sendKeys "qmetry" into "text.search"
+  And wait until "text.search" to be enable
+  change it
+  
+  Scenario Outline: PunitScenario outline
+
+  Given get "<website>"
+  When wait until "text.search" to be enable
+  And clear "text.search"
+  And wait until "text.search" to be enable
+  And sendKeys "qmetry" into "text.search"
+  And wait until "text.search" to be enable
+  change it
+  
+  Scenario Outline: PunitScenario outline
+
+  Given get "<website>"
+  When wait until "text.search" to be enable
+  And clear "text.search"
+  And wait until "text.search" to be enable
+  And sendKeys "qmetry" into "text.search"
+  And wait until "text.search" to be enable
+  change it
+  
+  Scenario Outline: PunitScenario outline
+
+  Given get "<website>"
+  When wait until "text.search" to be enable
+  And clear "text.search"
+  And wait until "text.search" to be enable
+  And sendKeys "qmetry" into "text.search"
+  And wait until "text.search" to be enable
+  change it
+  
+  Scenario Outline: PunitScenario outline
+
+  Given get "<website>"
+  When wait until "text.search" to be enable
+  And clear "text.search"
+  And wait until "text.search" to be enable
+  And sendKeys "qmetry" into "text.search"
+  And wait until "text.search" to be enable
+  change it
+  
+  Scenario Outline: PunitScenario outline
+
+  Given get "<website>"
+  When wait until "text.search" to be enable
+  And clear "text.search"
+  And wait until "text.search" to be enable
+  And sendKeys "qmetry" into "text.search"
+  And wait until "text.search" to be enable
+  change it
+  
+  Scenario Outline: PunitScenario outline
+
+  Given get "<website>"
+  When wait until "text.search" to be enable
+  And clear "text.search"
+  And wait until "text.search" to be enable
+  And sendKeys "qmetry" into "text.search"
+  And wait until "text.search" to be enable
+  change it
+  
+  Scenario Outline: PunitScenario outline
+
+  Given get "<website>"
+  When wait until "text.search" to be enable
+  And clear "text.search"
+  And wait until "text.search" to be enable
+  And sendKeys "qmetry" into "text.search"
+  And wait until "text.search" to be enable
+  change it
+  
+  Scenario Outline: PunitScenario outline
+
+  Given get "<website>"
+  When wait until "text.search" to be enable
+  And clear "text.search"
+  And wait until "text.search" to be enable
+  And sendKeys "qmetry" into "text.search"
+  And wait until "text.search" to be enable
+  change it
+  
+  Scenario Outline: PunitScenario outline
+
+  Given get "<website>"
+  When wait until "text.search" to be enable
+  And clear "text.search"
+  And wait until "text.search" to be enable
+  And sendKeys "qmetry" into "text.search"
+  And wait until "text.search" to be enable
+  change it
+  
+  Scenario Outline: PunitScenario outline
+
+  Given get "<website>"
+  When wait until "text.search" to be enable
+  And clear "text.search"
+  And wait until "text.search" to be enable
+  And sendKeys "qmetry" into "text.search"
+  And wait until "text.search" to be enable
+  change it
